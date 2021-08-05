@@ -5,6 +5,10 @@ categories:
 - AWS
 tags: []
 banner: ''
+menu:
+  mainmenu:
+    name: first aws
+    weight: 5
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut dui in metus suscipit pulvinar sed iaculis dolor. Nunc semper suscipit eros, a varius ipsum venenatis sed. Etiam id luctus nunc. Curabitur cursus, dolor quis interdum congue, leo ex consectetur felis, sed pretium tellus mauris ut lorem. Pellentesque sed elit libero. Quisque hendrerit turpis ut nisl viverra, a dapibus magna iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam vestibulum vestibulum varius.
