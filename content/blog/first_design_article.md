@@ -1,7 +1,7 @@
 ---
 title: "First Design Article"
 date: 2021-08-02T16:13:08+05:00
-draft: true
+draft: false
 categories: ["design"]
 tags: []
 banner: "https://yt3.ggpht.com/ytc/AKedOLRt1d4p7bPylasq_66BIC8-k3hkyVjJ2JICQITK=s900-c-k-c0x00ffffff-no-rj"

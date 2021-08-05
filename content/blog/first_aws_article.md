@@ -1,7 +1,7 @@
 ---
 title: "First_aws_article"
 date: 2021-08-02T16:14:39+05:00
-draft: true
+draft: falses
 categories: ["AWS"]
 tags: []
 banner: ""

@@ -1,7 +1,7 @@
 ---
 title: "First_flutter_article"
 date: 2021-08-02T16:14:17+05:00
-draft: true
+draft: false
 categories: ["flutter"]
 tags: ["flutter"]
 banner: ""
