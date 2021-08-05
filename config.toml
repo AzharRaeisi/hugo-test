@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Dhaba Consulting"
+# sectionPagesMenu = "articlemenu"
+
+[menu]
+    [[menu.mainmenu]]
+    identifier = "offerings"
+    name = "Offerings"
+    url = "/"
+    weight = 1
+
+    [[menu.mainmenu]]
+    identifier = "blog"
+    name = "Blogs"
+    url = "/blog/"
+    weight = 2
+
+    [[menu.mainmenu]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 3
+
+    [[menu.mainmenu]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 4
+    
+
+    
+
+    

@@ -1,0 +1,22 @@
+
+<div class="row">
+    {{ range  where .Site.RegularPages ".Params.categories" "intersect" (slice "")}}
+
+    <div class="col-3">
+
+        <div class="card" style="width: 18rem; margin-bottom: 1rem;">
+            {{ if .Params.banner }}
+            <img src="{{ .Params.banner | relURL }}" class=" card-img-top img-responsive" alt="">
+            {{ else }}
+            <img src="{{ "img/placeholder.png" | relURL}}" class=" card-img-top img-responsive" alt="">
+            {{ end }}
+            <div class="card-body">
+                <h5 class="card-title" style="color:black;">{{ .Title }}</h5>
+                <a href="{{ .URL }}" class="btn btn-primary">View Article</a>
+            </div>
+        </div>
+    </div>
+
+
+    {{ end }}
+</div>

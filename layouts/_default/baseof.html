@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+{{ partial "head.html" . }}
+
+<body>
+    <!-- Responsive navbar-->
+    {{ partial "nav.html" . }}
+
+    <!-- Page Content-->
+    <!-- main block -->
+    {{ block "main" .}}
+    {{ end }}
+
+    <!-- Footer-->
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

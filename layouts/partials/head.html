@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    {{ $title_plain := .Title | markdownify | plainify }}
+    <title>{{ $title_plain }}</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="{{ "img/favicon.ico" | relURL}}" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{ "css/styles.css" | relURL}}" rel="stylesheet" />
+
+    
+</head>

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+        <a class="navbar-brand" href="/">Dhaba Consulting</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                {{ $currentNode := . }}
+                <!-- apply active class to the current tab -->
+                {{- $firstUrlElement := print "/" (index (split .URL "/") 1) -}}
+
+                {{ range .Site.Menus.mainmenu}}
+
+                <!-- dynamic active selected menu -->
+                <li class="nav-item"><a class="nav-link {{if or ($.IsMenuCurrent "mainmenu" .) (eq ($firstUrlElement|lower)
+                        (.URL|lower)) }}active{{end}}" href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+                
+            </ul>
+        </div>
+    </div>
+</nav>

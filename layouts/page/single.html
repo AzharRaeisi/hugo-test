@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+{{ partial "head.html" . }}
+
+<body>
+    <!-- Responsive navbar-->
+    {{ partial "nav.html" . }}
+
+    <!-- Page Content-->
+    <!-- main block -->
+    {{ if .IsMenuCurrent "mainmenu" .Site.Menus.about }}
+      if 
+      {{ print .Permalink}}
+      {{ print .Site.Menus.about}}
+
+    {{ else}}
+      else
+      {{ print .Permalink}}
+      <br>
+      {{ print ""}}
+      <br>
+      {{ print .Site.Menus.about}}
+    {{ end}}
+
+    <!-- Footer-->
+    {{ partial "footer.html" . }}
+</body>
+
+</html>
