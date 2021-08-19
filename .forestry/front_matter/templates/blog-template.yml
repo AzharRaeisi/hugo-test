@@ -17,3 +17,5 @@ fields:
 - type: text
   name: banner
   label: banner
+pages:
+- content/blog/enlightment.md
